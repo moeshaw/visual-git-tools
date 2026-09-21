@@ -7,6 +7,7 @@ subtotal = sum(prices)
 tax = subtotal  0.08
 total = subtotal + tax
 
-print(fSubtotal ${subtotal.2f})
-print(fTax (8%) ${tax.2f})
-print(fTotal    ${total.2f})
+#Print the results
+print("Subtotal:", subtotal)
+print("Tax:     ", tax)
+print("Total:   ", total)
