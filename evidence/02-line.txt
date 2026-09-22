@@ -1,0 +1,26 @@
+12c6e101 (moeshaw 2026-09-21 19:15:05 -0500 14) print("Your total is:" ,total)
+##################################
+$ git show 12c6e101
+commit 12c6e10192a123987a5e6921162925deb1967fbe (HEAD -> visual-tools)
+Author: moeshaw <moeshaw@umich.edu>
+Date:   Mon Sep 21 19:15:05 2026 -0500
+
+     corrected error of total statement
+
+diff --git a/checkout.py b/checkout.py
+index 34d9cea..ddc501e 100644
+--- a/checkout.py
++++ b/checkout.py
+@@ -11,4 +11,4 @@ total = subtotal + tax
+ print("Subtotal:", subtotal)
+ print("Tax:     ", tax)
+ print("Total:   ", total)
+-print("Your total is:" ,tax)
+\ No newline at end of file
++print("Your total is:" ,total)
+#######################################
+
+-The commit hash that last changed the line is 12c6e101
+-The diff is that line 14 print statement 2nd parameter was changed from tax to total. 
+-the author was moeshaw
+-the commit message " corrected error of total statement"

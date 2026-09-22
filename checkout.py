@@ -1,3 +1,5 @@
+### moesha W.
+
 prices = [10.99, 5.50, 20.00, 3.25]
 
 # Calculate total directly
