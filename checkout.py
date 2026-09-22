@@ -11,4 +11,4 @@ total = subtotal + tax
 print("Subtotal:", subtotal)
 print("Tax:     ", tax)
 print("Total:   ", total)
-print("Your total is:" ,tax)
+print("Your total is:" ,total)
