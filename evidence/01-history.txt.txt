@@ -1,0 +1,24 @@
+$  git log --graph --oneline --all --decorate
+*   7126a79 (origin/main, origin/HEAD) Merge pull request #1 from moeshaw/visual-tools
+|\
+| * 2a65495 (HEAD -> visual-tools, origin/visual-tools)  simplified the print function lines
+| * 8c80bb9  created checkout file that calculate subtotal with tax
+|/
+* aae1540 (main)  created readme.md
+
+#########################################################
+Which commits are shared with main?
+	The commits are: aae1540 &  7126a79
+##
+Which commits are unique to visual-tools?
+	The commits are : 8c80bb9  &  2a65495
+##
+Where is HEAD?
+	it is on the visual-tools branch
+##
+Which branch label points to the newest feature commit? 
+	it is the main branch with the merge commit
+
+## url 
+https://github.com/moeshaw/visual-git-tools.git
+
